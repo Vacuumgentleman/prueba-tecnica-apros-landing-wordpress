@@ -91,6 +91,7 @@
             align-items: center;
             justify-content: space-between;
         }
+        .apros-nav__marca { display: flex; align-items: center; gap: 0.5rem; }
         .apros-nav__logo { font-size: 1.4rem; font-weight: 800; color: var(--azul-principal); letter-spacing: -0.5px; }
         .apros-nav__link { font-size: 0.875rem; font-weight: 500; color: var(--texto-medio); text-decoration: none; transition: color 0.2s; }
         .apros-nav__link:hover { color: var(--azul-principal); }
@@ -226,7 +227,10 @@
 
     <nav class="apros-nav">
         <div class="apros-nav__inner">
-            <img src="Apros.png" alt="APROS" class="apros-nav__logo" height="36">
+            <div class="apros-nav__marca">
+                <img src="Apros.png" alt="APROS" height="36">
+                <span class="apros-nav__logo">APROS</span>
+            </div>
             <a href="https://apros.pe/" target="_blank" rel="noopener" class="apros-nav__link">Volver al sitio principal</a>
         </div>
     </nav>
